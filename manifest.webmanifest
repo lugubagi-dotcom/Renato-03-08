@@ -1,0 +1,22 @@
+{
+    "name": "Renato-03-08",
+    "short_name": "Renato",
+    "description": "Programação para dispositivos móveis 2",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/images/icon.jpg",
+            "sizes": "512x512",
+            "type": "image/jpg"
+        },
+        {
+            "src": "/images/gatoplanetário.jpg",
+            "sizes": "512x512",
+            "type": "image/jpg"
+
+        }
+    ]
+}

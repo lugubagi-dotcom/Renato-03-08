@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAT.nip</title>
+    <link rel="icon" type="image/png" href="./images/icon.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="./images/gatoplanetário.jpg" alt="Descrição da imagem">
+    <h1>PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS 2</h1>
+
+     <div class="exercicio">
+      <h2>Exercicio 2</h2>
+      <label>Primeiro número:</label>
+      <input type="number" id="n1" step="any"><br><br>
+
+      <label>Segundo número:</label>
+      <input type="number" id="n2" step="any"><br><br>
+
+      <button onclick="somar()">Somar</button>
+      <p id="resultado-soma"></p>
+    </div>
+
+    <div class="exercicio">
+      <h2>Exercicio 3</h2>
+      <label>Nota 1:</label>
+      <input type="number" id="m1" step="any"><br><br>
+
+      <label>Nota 2:</label>
+      <input type="number" id="m2" step="any"><br><br>
+
+      <label>Nota 3:</label>
+      <input type="number" id="m3" step="any"><br><br>
+
+      <label>Nota 4:</label>
+      
+      <input type="number" id="m4" step="any"><br><br>
+      <button onclick="calcularMedia()">Calcular média</button>
+      <p id="resultado-media"></p>
+    </div>
+
+    <div class="exercicio">
+      <h2>Exercicio 4</h2>
+      <label>Valor 1:</label>
+      <input type="number" id="valor1" step="any"><br><br>
+      <label>Valor 2:</label>
+      <input type="number" id="valor2" step="any"><br><br>
+      <button onclick="compararValores()">Comparar</button>
+      <p id="resultado-comparacao"></p>
+    </div>
+
+    <div class="exercicio">
+      <h2>Exercicio 5</h2>
+      <label>Número:</label>
+      <input type="number" id="tabuada" step="1"><br><br>
+      <button onclick="mostrarTabuada()">Mostrar tabuada</button>
+      <div id="resultado-tabuada"></div>
+    </div>
+
+    <div class="exercicio">
+      <h2>Exercicio 6</h2>
+      <button onclick="mostrarImpares()">Mostrar ímpares</button>
+      <div id="resultado-impares"></div>
+    </div>
+
+    <div class="exercicio">
+      <h2>Exercicio 7</h2>
+      <label>Digite seu nome:</label>
+      <input type="text" id="nome" /><br><br>
+      <button onclick="inverterNome()">Escrever ao contrário</button>
+      <p id="resultado-nome"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
